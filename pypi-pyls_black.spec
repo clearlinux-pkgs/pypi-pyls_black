@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyls_black
 Version  : 0.4.7
-Release  : 17
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/5b/be/3295df9635f7059e1229a3d6770284306dd295ea653fba5ce5b278af3d79/pyls-black-0.4.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5b/be/3295df9635f7059e1229a3d6770284306dd295ea653fba5ce5b278af3d79/pyls-black-0.4.7.tar.gz
 Summary  : Black plugin for the Python Language Server
@@ -13,11 +13,8 @@ License  : MIT
 Requires: pypi-pyls_black-license = %{version}-%{release}
 Requires: pypi-pyls_black-python = %{version}-%{release}
 Requires: pypi-pyls_black-python3 = %{version}-%{release}
-Requires: black
+Requires: pypi(black)
 BuildRequires : buildreq-distutils3
-Provides: pyls-black
-Provides: pyls-black-python
-Provides: pyls-black-python3
 BuildRequires : pypi(black)
 BuildRequires : pypi(python_language_server)
 BuildRequires : pypi(toml)
@@ -65,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641476515
+export SOURCE_DATE_EPOCH=1641675644
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
