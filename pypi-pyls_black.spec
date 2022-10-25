@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyls_black
 Version  : 0.4.7
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/5b/be/3295df9635f7059e1229a3d6770284306dd295ea653fba5ce5b278af3d79/pyls-black-0.4.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5b/be/3295df9635f7059e1229a3d6770284306dd295ea653fba5ce5b278af3d79/pyls-black-0.4.7.tar.gz
 Summary  : Black plugin for the Python Language Server
